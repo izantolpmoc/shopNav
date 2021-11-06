@@ -1,0 +1,20 @@
+<div class="conteneur1" >
+    
+    <!-- card bootstrap -->
+
+    <div class="card" style="width: 18rem;" *ngFor="let i of productList; index as productId">
+        <img src="{{i.imgSrc}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{i.nom}}</h5>
+            <h6>{{i.prix}}€</h6>
+            <p class="card-text">{{i.description}}</p>
+            <a [routerLink]="['/detail', productId]" class="btn btn-ligjt" (click)="goToBottom()">Shop</a>
+        </div>
+    </div>
+
+    <!-- end card bootstrap -->
+    
+
+</div>
+
+

@@ -1,0 +1,51 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vh;
+    background-color: indianred;
+    color: ghostwhite;
+    font-size: 30px;
+
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav a{
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.conteneur{
+    height: 100vh;
+    background-image: url('https://cdn.pixabay.com/photo/2017/11/24/16/29/tea-2975184_960_720.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: #D0D0CF;
+}
+
+.shop{
+    text-align: center;
+    background-color: ivory;
+    padding-top: 150px;
+}
+
+.shop h1{
+    font-weight: bold;
+}
+
+.conteneur4{
+    height: 100vh;
+    background-image: url('../assets/herbs.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-color: bisque;
+    
+    display: flex;
+    align-items: center;
+}
+
